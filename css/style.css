@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --brand-font: "rubik", Sans-Serif;
+    --grisoscuro: #54585a;
+    --gristransp: rgba(0, 0, 0, 0.08); /*solo para borde de las fotos*/
+    --verdeclaro: #14d9c4;
+    --verdeoscuro: #099d8d;
+    --grisfondo: #b8b8b9;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+h1 {
+    font-family: var(--brand-font);
+}
