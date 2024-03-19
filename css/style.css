@@ -13,6 +13,45 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-h1 {
+header {
     font-family: var(--brand-font);
+    color: white;
+}
+h1 {
+    background-color: var(--verdeoscuro);
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navheader {
+    background-color: var(--verdeclaro);
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.menu {
+    display: flex; 
+    gap: 15px; 
+    list-style: none;
+    justify-content: space-between;
+    padding: 4%;
+}
+footer {
+    font-family: var(--brand-font);
+    font-size: 16px;
+    display: block;
+    align-items: center;
+}
+.menufooter {
+    list-style: none;
+}
+h6 {
+    color: var(--grisfondo);
+    font-weight: 100;
+}
+.menufooter {
+    font-size: 12px;
 }
