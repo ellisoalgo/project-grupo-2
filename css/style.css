@@ -13,6 +13,92 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-h1 {
+header {
     font-family: var(--brand-font);
+    color: white;
 }
+h1 {
+    background-color: var(--verdeoscuro);
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navheader {
+    background-color: var(--verdeclaro);
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.menu {
+    display: flex; 
+    gap: 15px; 
+    list-style: none;
+    justify-content: space-between;
+    padding: 4%;
+}
+footer {
+    font-family: var(--brand-font);
+    font-size: 16px;
+    display: block;
+    align-items: center;
+}
+.menufooter {
+    list-style: none;
+}
+h6 {
+    color: var(--grisfondo);
+    font-weight: 100;
+}
+.menufooter {
+    font-size: 12px;
+}
+.equipo {
+    font-family: var(--brand-font);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vw;
+    gap: 30px;
+}
+
+.tituloequipo {
+    display: block;
+    font-size: 24px;
+    color: var(--verdeclaro);
+    padding: 5px;
+}
+
+.textequipo {
+    display: block;
+    font-size: 16px;
+    color: var(--grisoscuro);
+}
+
+.textequipo p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.fortdeb {
+    
+    
+}
+.for {
+    color: #099d8d;
+    padding: 5px;
+}
+.cont {
+    background-color: #b8b8b9;
+}
+.deb {
+    color: #099d8d;
+}
+.conte{
+    background-color: #b8b8b9;
+}
+
