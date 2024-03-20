@@ -85,20 +85,28 @@ h6 {
     margin-bottom: 15px;
 }
 .fortdeb {
-    
-    
-}
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    }
+
 .for {
     color: #099d8d;
-    padding: 5px;
-}
+    background-color: #b8b8b9;
+    padding: 10px
+    }
 .cont {
     background-color: #b8b8b9;
+    padding: 15px;
 }
 .deb {
     color: #099d8d;
+    background-color: #b8b8b9;
+    padding: 10px;   
 }
 .conte{
     background-color: #b8b8b9;
+    padding: 15px;
 }
 
