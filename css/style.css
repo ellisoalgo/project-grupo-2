@@ -30,26 +30,19 @@ h1 {
 }
 
 .tituloequipo {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
+    display: block;
     font-size: 24px;
     color: var(--verdeclaro);
     padding: 5px;
 }
 
 .textequipo {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
+    display: block;
     font-size: 16px;
     color: var(--grisoscuro);
 }
 
 .textequipo p {
     text-align: center;
+    margin-bottom: 15px;
 }
