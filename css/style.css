@@ -112,21 +112,18 @@ footer {
         padding: 15px;
         }
     
-.for {
-        color: #099d8d;
-        background-color: #b8b8b9;
-        padding: 10px
-        }
-
 .parte3 {
     text-align: center;
+    font-family: var(--brand-font);
 }
 .titulo3 {
     color: #099d8d;
     padding: 10px;
     }
-
-
+.conte3 {
+        color:#54585a;
+        background-color: #b8b8b9;
+    }  
 
 @media all and (min-width: 768px) {
     .equipo {
