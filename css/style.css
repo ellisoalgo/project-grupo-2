@@ -42,35 +42,28 @@ h1 {
     padding: 4%;
 }
 .banner{
-    display:block;
-    height: 100vh;
+    display:flex;
     align-items: center;
     justify-content:center;
     
-  
   }
   .imgbanner{
     display: flex;
     justify-content:center;
-    opacity: 0.5;
-    width: 100%;
+    opacity: 0.8;
+;
+  }
+  h5{
+    transform: translate(-50%, -50%);
+    padding:10px;
+    margin:47px;
+    background-color:#ffffff;
+    position: absolute;
+    top:49%;
+    left: 23%;
+    color: black;
+    opacity:0.5;
   
-   
-  }
-  h4{
-      display: flex;
-      justify-content: end;
-      position:relative;
-      right: 50%;
-      background-color: aqua;
-      transform:translate(40%,-100%) ;
-      padding: 30px;
-      
-      
-  }
-  .span{
-    margin: 25px;
-    height: 30px;
   }
 
 footer {
@@ -133,4 +126,6 @@ h6 {
 .conte{
     background-color: #b8b8b9;
 }
+
+
 
