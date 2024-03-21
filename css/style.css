@@ -32,12 +32,22 @@ h1 {
     font-weight: 500;
     letter-spacing: -1px;
 }
+
+
 .menu {
     display: flex; 
     gap: 15px; 
     list-style: none;
     justify-content: space-between;
     padding: 4%;
+}
+.imgbanner{
+  display: flex;
+  width: 100%;
+}
+.lorem1{
+    display: flex;
+    position:end;
 }
 footer {
     font-family: var(--brand-font);
@@ -85,12 +95,9 @@ h6 {
     margin-bottom: 15px;
 }
 .fortdeb {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center
-    }
-
+    
+    
+}
 .for {
     color: #099d8d;
     background-color: #b8b8b9;
