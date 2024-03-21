@@ -110,3 +110,12 @@ h6 {
     background-color: #b8b8b9;
 }
 
+@media all and (min-width: 768px) {
+    .equipo {
+        
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+}
