@@ -81,9 +81,11 @@ a {
 }
 .link1 {
     color: white;
+    cursor: pointer;
 }
 .link2 {
     color: #54585a;
+    cursor: pointer;
 }
 .equipo {
     font-family: var(--brand-font);
