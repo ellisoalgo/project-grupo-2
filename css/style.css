@@ -100,32 +100,23 @@ h6 {
     display: flex;
     align-items:center;
     flex-direction: column;
+    padding: 15px;
     }
-.for {
+.parte3 {
+    text-align: center;
+}
+.titulo3 {
     color: #099d8d;
-    background-color: #b8b8b9;
     padding: 10px;
-    align-items: center;
     }
-.cont {
-    background-color:#b8b8b9;
-    padding: 15px;
-}
-.deb {
-    color: #099d8d;
-    background-color: #b8b8b9;
-    padding: 10px; 
-    align-items: center;
-}
-.conte{
-    background-color: #b8b8b9;
-    padding: 15px;
-}
+
+
 
 @media all and (min-width: 768px) {
     .equipo {
         
     }
+    .fortdeb {flex-direction: row;}
 }
 
 @media all and (min-width: 1200px) {
