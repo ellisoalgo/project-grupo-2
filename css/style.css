@@ -103,32 +103,36 @@ footer {
     text-align: center;
     margin-bottom: 15px;
 }
-.fortdeb {
 
-}
+.fortdeb {
+        background-color: #b8b8b9;
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        padding: 15px;
+        }
+    
 .for {
+        color: #099d8d;
+        background-color: #b8b8b9;
+        padding: 10px
+        }
+
+.parte3 {
+    text-align: center;
+}
+.titulo3 {
     color: #099d8d;
-    background-color: #b8b8b9;
-    padding: 10px
+    padding: 10px;
     }
-.cont {
-    background-color: #b8b8b9;
-    padding: 15px;
-}
-.deb {
-    color: #099d8d;
-    background-color: #b8b8b9;
-    padding: 10px;   
-}
-.conte{
-    background-color: #b8b8b9;
-    padding: 15px;
-}
+
+
 
 @media all and (min-width: 768px) {
     .equipo {
         
     }
+    .fortdeb {flex-direction: row;}
 }
 
 @media all and (min-width: 1200px) {
