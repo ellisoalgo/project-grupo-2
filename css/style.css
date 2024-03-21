@@ -76,6 +76,7 @@ h6 {
     align-items: center;
     padding: 5vw;
     gap: 30px;
+    border: 1px solid #54585a;
 }
 
 .tituloequipo {
@@ -94,6 +95,7 @@ h6 {
 .textequipo p {
     text-align: center;
     margin-bottom: 15px;
+    
 }
 .fortdeb {
     
@@ -120,10 +122,32 @@ h6 {
 
 @media all and (min-width: 768px) {
     .equipo {
-        
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-bottom: 30px;
+        padding-top: 45px;
+    }
+    .textequipo {
+        font-size: 16px;
+    }
+    .tituloequipo {
+        font-size: 24px;
     }
 }
 
-@media all and (min-width: 1200px) {
-
+@media all and (min-width: 1000px) {
+    .equipo {
+        
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-top: 105px;
+        padding-bottom: 60px;
+    }
+    .textequipo {
+        font-size: 16px; 
+    }
+    .tituloequipo {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
 }
