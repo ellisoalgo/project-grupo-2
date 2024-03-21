@@ -96,6 +96,10 @@ h6 {
     margin-bottom: 15px;
 }
 .fortdeb {
+    background-color: #b8b8b9;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
     
     
 }
