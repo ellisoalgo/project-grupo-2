@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --brand-font: "rubik", Sans-Serif;
+    --grisoscuro: #54585a;
+    --gristransp: rgba(0, 0, 0, 0.08); /*solo para borde de las fotos*/
+    --verdeclaro: #14d9c4;
+    --verdeoscuro: #099d8d;
+    --grisfondo: #b8b8b9;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+header {
+    font-family: var(--brand-font);
+    color: white;
+}
+h1 {
+    background-color: var(--verdeoscuro);
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navheader {
+    background-color: var(--verdeclaro);
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+
+
+.menu {
+    display: flex; 
+    gap: 15px; 
+    list-style: none;
+    justify-content: space-between;
+    padding: 4%;
+}
+.imgbanner{
+  display: flex;
+  width: 100%;
+}
+.lorem1{
+    display: flex;
+    position:end;
+}
+footer {
+    font-family: var(--brand-font);
+    font-size: 16px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.license {
+    color: var(--grisfondo);
+    font-weight: 100;
+}
+.navfooter {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menufooter {
+    list-style: none;
+    font-size: 12px;
+    color: #54585a;
+}
+.logo-adalab {
+    width: 80px;
+    margin-bottom: 20px;
+}
+.equipo {
+    font-family: var(--brand-font);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vw;
+    gap: 30px;
+}
+
+.tituloequipo {
+    display: block;
+    font-size: 24px;
+    color: var(--verdeclaro);
+    padding: 5px;
+}
+
+.textequipo {
+    display: block;
+    font-size: 16px;
+    color: var(--grisoscuro);
+}
+
+.textequipo p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.fortdeb {
+        background-color: #b8b8b9;
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        padding: 15px;
+}
+.bordesDiagonales {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: -1px;
+}    
+.BordeSuperiorDerechoDiagonal {
+    flex-grow: 1;
+    background-color: #b8b8b9;
+    clip-path: polygon(0 0,90% 0, 100% 100%, 0% 100%)
+}
+.BordeSuperiorIzquierdoDiagonal {
+    flex-grow: 1;
+    background-color: #b8b8b9;
+    clip-path: polygon(0 0,90% 0, 100% 100%, 0% 100%)
+}
+.parte3 {
+    text-align: center;
+    font-family: var(--brand-font);
+}
+.titulo3 {
+    color: #099d8d;
+    padding: 10px;
+}
+.conte3 {
+    color:#54585a;
+    background-color: #b8b8b9;
+    padding: 0 5vw;
+ }  
+
+@media all and (min-width: 768px) {
+    .equipo {
+        
+    }
+    .fortdeb {flex-direction: row;}
+}
+
+@media all and (min-width: 1200px) {
+
+}
