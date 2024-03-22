@@ -46,11 +46,8 @@ h1 {
   width: 100%;
 }
 .lorem1{
-    position:absolute;
-    top:80%;
-    right: 50%;
-    color: rgba(0, 0, 0, 0.08);
-
+    display: flex;
+    position:end;
 }
 footer {
     font-family: var(--brand-font);
@@ -131,7 +128,14 @@ a {
         flex-direction: column;
         padding: 15px;
         }
-.bordeSuperiorDerechodiagonal {}    
+>>>>>>> 1187fd5a037a981a304dd2743db50606b8e67de2
+    
+.for {
+        color: #099d8d;
+        background-color: #b8b8b9;
+        padding: 10px
+        }
+
 .parte3 {
     text-align: center;
     font-family: var(--brand-font);
@@ -140,10 +144,8 @@ a {
     color: #099d8d;
     padding: 10px;
     }
-.conte3 {
-        color:#54585a;
-        background-color: #b8b8b9;
-    }  
+
+
 
 @media all and (min-width: 768px) {
     .equipo {
