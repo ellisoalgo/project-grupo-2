@@ -130,6 +130,7 @@ a {
         flex-direction: column;
         padding: 15px;
         }
+>>>>>>> 1187fd5a037a981a304dd2743db50606b8e67de2
     
 .for {
         color: #099d8d;
@@ -139,6 +140,7 @@ a {
 
 .parte3 {
     text-align: center;
+    font-family: var(--brand-font);
 }
 .titulo3 {
     color: #099d8d;
