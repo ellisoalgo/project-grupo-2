@@ -1,3 +1,15 @@
+/*@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+*/
+
+@import 'core/reset';
+
 *{
     margin: 0;
     padding: 0;
@@ -124,12 +136,8 @@ a {
     display: flex;
     align-items:center;
     flex-direction: column;
-        background-color: #b8b8b9;
-        display: flex;
-        align-items:center;
-        flex-direction: column;
-        padding: 15px;
-        }
+    padding: 15px;
+}
     
 .for {
         color: #099d8d;
@@ -161,12 +169,6 @@ a {
     }
     .tituloequipo {
         font-size: 24px;
-    }
-}
-
-@media all and (min-width: 768px) {
-    .equipo {
-        
     }
 }
 
