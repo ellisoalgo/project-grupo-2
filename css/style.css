@@ -46,11 +46,8 @@ h1 {
   width: 100%;
 }
 .lorem1{
-    position:absolute;
-    top:80%;
-    right: 50%;
-    color: rgba(0, 0, 0, 0.08);
-
+    display: flex;
+    position:end;
 }
 footer {
     font-family: var(--brand-font);
@@ -100,6 +97,7 @@ a {
     align-items: center;
     padding: 5vw;
     gap: 30px;
+    border: 1px solid #54585a;
 }
 
 .tituloequipo {
@@ -118,6 +116,7 @@ a {
 .textequipo p {
     text-align: center;
     margin-bottom: 15px;
+    
 }
 
 .fortdeb {
@@ -140,19 +139,29 @@ a {
 
 .parte3 {
     text-align: center;
+    font-family: var(--brand-font);
 }
 .titulo3 {
     color: #099d8d;
-    padding: 10px;
-    }
-
-
+}
+.conte{
+    background-color: #b8b8b9;
+    padding: 15px;
+}
 
 @media all and (min-width: 768px) {
     .equipo {
-        
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-bottom: 30px;
+        padding-top: 45px;
     }
-    .fortdeb {flex-direction: row;}
+    .textequipo {
+        font-size: 16px;
+    }
+    .tituloequipo {
+        font-size: 24px;
+    }
 }
 
 @media all and (min-width: 768px) {
