@@ -121,35 +121,29 @@ a {
 }
 
 .fortdeb {
-<<<<<<< HEAD
     background-color: #b8b8b9;
     display: flex;
     align-items:center;
     flex-direction: column;
-=======
         background-color: #b8b8b9;
         display: flex;
         align-items:center;
         flex-direction: column;
         padding: 15px;
         }
->>>>>>> 1187fd5a037a981a304dd2743db50606b8e67de2
-    
-.for {
-        color: #099d8d;
-        background-color: #b8b8b9;
-        padding: 10px
-        }
-
+.bordeSuperiorDerechodiagonal {}    
 .parte3 {
     text-align: center;
+    font-family: var(--brand-font);
 }
 .titulo3 {
     color: #099d8d;
     padding: 10px;
     }
-
-
+.conte3 {
+        color:#54585a;
+        background-color: #b8b8b9;
+    }  
 
 @media all and (min-width: 768px) {
     .equipo {
@@ -158,15 +152,12 @@ a {
     .fortdeb {flex-direction: row;}
 }
 
-<<<<<<< HEAD
 @media all and (min-width: 768px) {
     .equipo {
         
     }
 }
 
-=======
->>>>>>> 1187fd5a037a981a304dd2743db50606b8e67de2
 @media all and (min-width: 1200px) {
 
 }
