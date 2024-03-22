@@ -121,19 +121,16 @@ a {
 }
 
 .fortdeb {
-<<<<<<< HEAD
     background-color: #b8b8b9;
     display: flex;
     align-items:center;
     flex-direction: column;
-=======
         background-color: #b8b8b9;
         display: flex;
         align-items:center;
         flex-direction: column;
         padding: 15px;
         }
->>>>>>> 1187fd5a037a981a304dd2743db50606b8e67de2
     
 .for {
         color: #099d8d;
@@ -158,15 +155,12 @@ a {
     .fortdeb {flex-direction: row;}
 }
 
-<<<<<<< HEAD
 @media all and (min-width: 768px) {
     .equipo {
         
     }
 }
 
-=======
->>>>>>> 1187fd5a037a981a304dd2743db50606b8e67de2
 @media all and (min-width: 1200px) {
 
 }
