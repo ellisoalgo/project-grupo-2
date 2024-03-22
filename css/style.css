@@ -110,8 +110,23 @@ footer {
         align-items:center;
         flex-direction: column;
         padding: 15px;
-        }
-.bordeSuperiorDerechodiagonal {}    
+}
+.bordesDiagonales {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: -1px;
+}    
+.BordeSuperiorDerechoDiagonal {
+    flex-grow: 1;
+    background-color: #b8b8b9;
+    clip-path: polygon(0 0,90% 0, 100% 100%, 0% 100%)
+}
+.BordeSuperiorIzquierdoDiagonal {
+    flex-grow: 1;
+    background-color: #b8b8b9;
+    clip-path: polygon(0 0,90% 0, 100% 100%, 0% 100%)
+}
 .parte3 {
     text-align: center;
     font-family: var(--brand-font);
@@ -119,11 +134,12 @@ footer {
 .titulo3 {
     color: #099d8d;
     padding: 10px;
-    }
+}
 .conte3 {
         color:#54585a;
         background-color: #b8b8b9;
-    }  
+        padding: 0 5vw;
+ }  
 
 @media all and (min-width: 768px) {
     .equipo {
