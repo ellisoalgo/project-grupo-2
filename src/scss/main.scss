@@ -25,7 +25,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-header {
+.header {
     font-family: var(--brand-font);
     color: white;
 }
@@ -53,14 +53,53 @@ h1 {
     justify-content: space-between;
     padding: 4%;
 }
-.imgbanner{
-  display: flex;
-  width: 100%;
-}
-.lorem1{
+.banner{
+    display:block;
+    height: 100vh;
+    align-items: center;
+    justify-content:center;
+    
+
+
+  }
+  .imgbanner{
     display: flex;
-    position:end;
-}
+    justify-content:center;
+    opacity: 0.5;
+    width: 100%;
+
+
+  }
+  h4{
+      display: flex;
+      justify-content: end;
+      position:relative;
+      right: 50%;
+      background-color: aqua;
+      transform:translate(40%,-100%) ;
+      padding: 30px;
+      opacity: 0.8;
+
+  }
+  .span{
+    margin: 25px;
+    height: 30px;
+  }
+  h5{
+    transform: translate(-50%, -50%);
+    padding:10px;
+    margin:47px;
+    background-color:#ffffff;
+    position: absolute;
+    top:49%;
+    left: 23%;
+    color: black;
+    opacity:0.5;
+
+  }
+
+
+
 footer {
     font-family: var(--brand-font);
     font-size: 16px;
