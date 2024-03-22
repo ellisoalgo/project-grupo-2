@@ -164,19 +164,12 @@ a {
     }
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 768px) {
     .equipo {
         
-        padding-left: 300px;
-        padding-right: 300px;
-        padding-top: 105px;
-        padding-bottom: 60px;
     }
-    .textequipo {
-        font-size: 16px; 
-    }
-    .tituloequipo {
-        font-size: 24px;
-        margin-bottom: 15px;
-    }
+}
+
+@media all and (min-width: 1200px) {
+
 }
