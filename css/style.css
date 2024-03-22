@@ -111,7 +111,7 @@ footer {
         flex-direction: column;
         padding: 15px;
         }
-    
+.bordeSuperiorDerechodiagonal {}    
 .parte3 {
     text-align: center;
     font-family: var(--brand-font);
