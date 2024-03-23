@@ -60,6 +60,7 @@ h1 {
     position:end;
 }
 footer {
+    border-top: 1px solid var(--grisfondo);
     font-family: var(--brand-font);
     font-size: 16px;
     display: block;
@@ -191,22 +192,29 @@ a {
         font-size: 24px;
     }
     footer {
-        display: inline-block;
-        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
     }
     .navfooter {
-        float: right; 
+        margin-right: 20px; 
+        text-align: right;  
+        align-items: right;  
+        padding: 30px;
     }
     .menufooter {
         align-items: right;
+        line-height: 22px;
     }
     .license {
-        float: left;
-        margin-top: 10px;
+        margin-top: -70px;
+        margin-left: 50px;
     }
-    .logo-adalab {
-        float: left;
-        margin-bottom: 0px;
+    .logo {
+        position: absolute;
+        margin-left: 50px;
+        margin-bottom: -40px;
     }
 }
 
