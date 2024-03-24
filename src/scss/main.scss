@@ -172,11 +172,12 @@ a {
         background-color: #099d8d;
         float: right;
         text-align: center;
+        font-weight: 400;
     }
     .menu {
         padding: 0;
         margin-top: 25px;
-        margin-right: 40px;
+        margin-right: 60px;
         margin-bottom: 25px;
     }
     .equipo {
@@ -206,10 +207,12 @@ a {
     .menufooter {
         align-items: right;
         line-height: 22px;
+        font-size: 14px;
     }
     .license {
         margin-top: -70px;
         margin-left: 50px;
+        font-size: 14px;
     }
     .logo {
         position: absolute;
@@ -219,5 +222,19 @@ a {
 }
 
 @media all and (min-width: 1200px) {
-
+    .teamname {
+        margin-left: 75px;
+    }
+    .navheader {
+        margin-right: 75px;
+    }
+    .license {
+        margin-left: 120px;
+    }
+    .logo {
+        margin-left: 120px;
+    }
+    .navfooter {
+        margin-right: 100px;
+    }
 }
