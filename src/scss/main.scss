@@ -9,6 +9,7 @@
 */
 
 @import 'core/reset';
+@import "layout/banner";
 
 
 *{
@@ -58,6 +59,7 @@ h1 {
     display:block;
     margin-left: auto;
     margin-right: auto;
+    
 
     
   }
@@ -210,8 +212,7 @@ a {
     .imgbanner{
         display:block;
         align-items: center;
-        
-        
+          
     
     }
     img{
