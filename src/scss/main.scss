@@ -55,47 +55,6 @@ h1 {
     justify-content: space-between;
     padding: 4%;
 }
-.banner{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    
-
-    
-  }
-  img{
-    
-    width: 430px;
-    margin-left: auto;
-    margin-right: auto;
-
-  }
-
-  .imgbanner{
-    display: flex;
-    justify-content:center;
-    display:grid;
-    opacity: 0.5;
-    place-content:100%;
-    
-    
-   
-}
- 
-  h4{
-      text-align: end;
-      position:relative;
-      right: 50%;
-      transform:translate(10%,-100%) ;
-      padding: 30px;
-      color: black
-
-  }
-  .span{
-    display: flex;
-    margin: 25px;
-    height: 30px;
-  }
 
 footer {
     font-family: var(--brand-font);
@@ -207,63 +166,11 @@ a {
         font-size: 24px;
     }
 }
-@media all and (min-width: 320px){
 
-    .imgbanner{
-        display:block;
-        align-items: center;
-          
-    
-    }
-    img{
-        height:100%;
-    }
-    .banner{
-        display:flex;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-}
 
 @media all and (min-width: 1200px) {
 
 }
-@media all and (min-width: 780px){
 
-    .imgbanner{
-        display: block;
-        align-items: center;
-     
-    }
-    img{
-       min-width: 820px;
-    }
-    .banner{
-        display:flex;
-        margin-left: auto;
-        margin-right: auto;
-    
-
-    }
-}
-
-    @media all and (min-width: 1200px){
-
-        .imgbanner{
-            display:flex;
-            align-items: center;
-
-        }
-        img{
-            max-width: 1300px;
-        }
-        .banner{
-            display:flex;
-            margin-left: auto;
-            margin-right: auto;
-    
-        }
-    }
 
     

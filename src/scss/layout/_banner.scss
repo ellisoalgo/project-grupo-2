@@ -1,40 +1,125 @@
 .banner{
-    display:block;
+    display:flex;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 
-    
+  
   }
   img{
-    
-    width: 430px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 
   }
 
   .imgbanner{
-    display: flex;
-    justify-content:center;
-    display:grid;
-    opacity: 0.5;
-    place-content:100%;
-    
-    
-   
-}
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    opacity:0.9;
+  } 
+
+  .rectangulo{
+    position:sticky;
+    padding:10px;
+    width:80%;
+    background-color: #fff;
+    transform: translate(10%,-100%);
+    opacity: 0.9;
+  }
  
   h4{
-      text-align: end;
-      position:relative;
-      right: 50%;
-      transform:translate(10%,-100%) ;
-      padding: 30px;
-      color: black
+    align-items: center;
+    font-family:var(--opensans);
+    color:var(--brand-font) ;
+    font-size: 18px;
+    line-height: 1.39;
+  }
+  
+
+  @media all and (min-width: 780px){
+
+    .imgbanner{
+        display:flex;
+        align-items: center;
+      
+     
+    }
+    img{
+      display: flex;
+      width: 100vw;
+    }
+    .banner{
+        display:flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rectangulo{
+      display: flex;
+      align-items: center;
+      padding:50px;
+      transform: translate(3%,-100%);
+      
+      }
+    
+    }
+    
+  
+  
+
+@media all and (min-width: 1200px){
+
+    .imgbanner{
+        display:flex;
+        align-items: center;
+        width: 100vw;
+
+    }
+    img{
+      display: flex;
+      width: 100vw;
+    }
+    .banner{
+       width: 100%;
+        display:flex;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .rectangulo{
+      display: flex;
+      align-items: center;
+      padding:50px;
+      transform: translate(3%,-100%);
+      
+     
+    }
+    h4{
+      font-size: 24px;
+      text-align: center;
+      padding-left:15%;
+    }
+    }
+
+@media all and (min-width: 1800px){
+
+  .imgbanner{
+       align-items: center;
+      justify-content: center;
+      width: 100vw;
+  
 
   }
-  .span{
-    display: flex;
-    margin: 25px;
-    height: 30px;
+  img{  
+     display: flex;
+      width: 100vw;
+  }
+  .banner{
+      display:flex;
+      margin-left: auto;
+      margin-right: auto;
+
+  }
+
   }
