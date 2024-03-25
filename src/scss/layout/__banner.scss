@@ -1,0 +1,40 @@
+.banner{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+  }
+  img{
+    
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .imgbanner{
+    display: flex;
+    justify-content:center;
+    display:grid;
+    opacity: 0.5;
+    place-content:100%;
+    
+    
+   
+}
+ 
+  h4{
+      text-align: end;
+      position:relative;
+      right: 50%;
+      transform:translate(10%,-100%) ;
+      padding: 30px;
+      color: black
+
+  }
+  .span{
+    display: flex;
+    margin: 25px;
+    height: 30px;
+  }
