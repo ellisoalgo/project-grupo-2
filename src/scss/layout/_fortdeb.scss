@@ -12,12 +12,12 @@
 
 .bordeSuperiorDerechoDiagonal {
     flex-grow: 1;
-    background-color: #b8b8b9;
+    background-color: #f1f1f1;;
     clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
 }
 .bordeSuperiorIzquierdoDiagonal {
     flex-grow: 1;
-    background-color: #b8b8b9;
+    background-color:  #f1f1f1;;
     clip-path: polygon(100% 0, 10% 0, 0% 100%, 100% 100%);
 }
 
@@ -29,12 +29,12 @@
 .titulo3 {
     color: #099d8d;
     padding: 10px;
-    background-color: #b8b8b9;
+    background-color:#f1f1f1;
 }
 
 .conte3 {
     color: #54585a;
-    background-color: #b8b8b9;
+    background-color: #f1f1f1;
     padding: 0 5vw;
     padding-bottom: 2vw;
 }
