@@ -130,67 +130,6 @@ a {
     margin-bottom: 15px;
     
 }
-.fortdeb {
-    display: flex;
-    align-items:center;
-    flex-direction: column;
-}
-.bordesDiagonales {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-bottom: -1px;
-}
 
-.bordeSuperiorDerechoDiagonal {
-    flex-grow: 1;
-    background-color: #b8b8b9;
-    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
-}
-.bordeSuperiorIzquierdoDiagonal {
-    flex-grow: 1;
-    background-color: #b8b8b9;
-    clip-path: polygon(100% 0, 10% 0, 0% 100%, 100% 100%);
-}
+@import "layout/fortdeb.scss";
 
-.parte3 {
-    text-align: center;
-    font-family: var(--brand-font);
-}
-
-.titulo3 {
-    color: #099d8d;
-    padding: 10px;
-    background-color: #b8b8b9;
-}
-
-.conte3 {
-    color: #54585a;
-    background-color: #b8b8b9;
-    padding: 0 5vw;
-    padding-bottom: 2vw;
-}
-    
-
-
-@media all and (min-width: 768px) {
-    .equipo {
-        padding-left: 45px;
-        padding-right: 45px;
-        padding-bottom: 30px;
-        padding-top: 45px;
-    }
-    .fortdeb {
-        flex-direction: row;
-    }
-    .textequipo {
-        font-size: 16px;
-    }
-    .tituloequipo {
-        font-size: 24px;
-    }
-}
-
-@media all and (min-width: 1200px) {
-
-}
