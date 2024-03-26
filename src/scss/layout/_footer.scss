@@ -9,6 +9,7 @@ footer {
 }
 .license {
     color: var(--grisfondo);
+    font-size: 13px;
     font-weight: 100;
     padding-top: 20px;
     margin-top: 15px;
@@ -20,10 +21,11 @@ footer {
 }
 .menufooter {
     list-style: none;
-    font-size: 12px;
+    font-size: 13px;
     color: var(--grisoscuro);
     line-height: 18px;
     font-weight: 500;
+    opacity: 0.8;
 }
 .logo-adalab {
     width: 90px;
@@ -61,12 +63,16 @@ a {
     .license {
         margin-top: -70px;
         margin-left: 50px;
-        font-size: 14px;
+        font-size: 13px;
+    }
+    .logo-adalab {
+        width: 100px;
     }
     .logo {
         position: absolute;
         margin-left: 50px;
         margin-bottom: -40px;
+        padding-top: 20px;
     }
 }
 @media all and (min-width: 1200px) {
