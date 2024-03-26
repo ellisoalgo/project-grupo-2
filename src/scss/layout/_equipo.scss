@@ -6,9 +6,10 @@
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    padding: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 5vh;
     gap: 30px;
-
 }
 
 .tituloequipo {
@@ -34,7 +35,6 @@
         padding-left: 45px;
         padding-right: 45px;
         padding-bottom: 30px;
-        padding-top: 45px;
     }
 
     .textequipo {
@@ -50,7 +50,6 @@
     .equipo {
         padding-left: 300px;
         padding-right: 300px;
-        padding-top: 105px;
         padding-bottom: 60px;
     }
 }
