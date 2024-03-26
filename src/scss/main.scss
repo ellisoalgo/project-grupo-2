@@ -10,8 +10,8 @@
 
 @import 'core/reset';
 
-@import "layout/header.scss";
-@import "layout/footer.scss";
+
+
 
 *{
     margin: 0;
@@ -26,7 +26,8 @@
     --verdeoscuro: #099d8d;
     --grisfondo: #b8b8b9;
 }
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+@import "layout/header.scss";
 @import "layout/equipo.scss";
 @import "layout/quienessomos";
+@import "layout/footer.scss";
