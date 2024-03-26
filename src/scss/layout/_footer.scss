@@ -1,0 +1,82 @@
+footer {
+    border-top: 1px solid var(--grisfondo);
+    font-family: var(--brand-font);
+    font-size: 16px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.license {
+    color: var(--grisfondo);
+    font-weight: 100;
+    padding-top: 20px;
+}
+.navfooter {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menufooter {
+    list-style: none;
+    font-size: 12px;
+    color: var(--grisoscuro);
+    line-height: 18px;
+    font-weight: 450;
+    opacity: 0.75;
+}
+.logo-adalab {
+    width: 90px;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: none;
+}
+.link2 {
+    color: var(--grisoscuro);
+    font-weight: 450;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+@media all and (min-width: 768px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+    .navfooter {
+        margin-right: 20px; 
+        text-align: right;  
+        align-items: right;  
+        padding: 30px;
+    }
+    .menufooter {
+        align-items: right;
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .license {
+        margin-top: -70px;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+    .logo {
+        position: absolute;
+        margin-left: 50px;
+        margin-bottom: -40px;
+    }
+}
+@media all and (min-width: 1200px) {
+    .license {
+        margin-left: 120px;
+    }
+    .logo {
+        margin-left: 120px;
+    }
+    .navfooter {
+        margin-right: 100px;
+    }
+}
