@@ -10,6 +10,9 @@
 
 @import 'core/reset';
 
+@import "layout/header.scss";
+@import "layout/footer.scss";
+
 *{
     margin: 0;
     padding: 0;
