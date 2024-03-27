@@ -3,14 +3,11 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-
-  
   }
   .photobanner{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-
   }
 
   .imgbanner{
@@ -42,9 +39,7 @@
 
     .imgbanner{
         display:flex;
-        align-items: center;
-      
-     
+        align-items: center; 
     }
     .photobanner{
       display: flex;
@@ -60,9 +55,7 @@
       align-items: center;
       padding:50px;
       transform: translate(3%,-100%);
-      
       }
-    
     }
     
   
