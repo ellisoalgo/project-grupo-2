@@ -1,20 +1,3 @@
-/*@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
-*/
-
-@import 'core/reset';
-@import "layout/banner";
-
-
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -28,17 +11,17 @@
     --verdeoscuro: #099d8d;
     --grisfondo: #b8b8b9;
 }
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-<<<<<<< HEAD
-.header {
+header {
     font-family: var(--brand-font);
     color: white;
 }
 h1 {
     background-color: var(--verdeoscuro);
     font-size: 22px;
-    font-weight: 450;
-    letter-spacing: 1px;
+    font-weight: 500;
+    letter-spacing: -1px;
     padding: 5%;
     display: flex;
     justify-content: center;
@@ -58,7 +41,14 @@ h1 {
     justify-content: space-between;
     padding: 4%;
 }
-
+.imgbanner{
+  display: flex;
+  width: 100%;
+}
+.lorem1{
+    display: flex;
+    position:end;
+}
 footer {
     font-family: var(--brand-font);
     font-size: 16px;
@@ -79,23 +69,10 @@ footer {
     list-style: none;
     font-size: 12px;
     color: #54585a;
-    line-height: 18px;
 }
 .logo-adalab {
-    width: 90px;
+    width: 80px;
     margin-bottom: 20px;
-}
-a {
-    text-decoration: none;
-    color: none;
-}
-.link1 {
-    color: white;
-    cursor: pointer;
-}
-.link2 {
-    color: #54585a;
-    cursor: pointer;
 }
 .equipo {
     font-family: var(--brand-font);
@@ -107,7 +84,6 @@ a {
     align-items: center;
     padding: 5vw;
     gap: 30px;
-    border: 1px solid #54585a;
 }
 
 .tituloequipo {
@@ -126,63 +102,15 @@ a {
 .textequipo p {
     text-align: center;
     margin-bottom: 15px;
-    
 }
 
-.fortdeb {
-    background-color: #b8b8b9;
-    display: flex;
-    align-items:center;
-    flex-direction: column;
-    padding: 15px;
-}
-    
-.for {
-        color: #099d8d;
-        background-color: #b8b8b9;
-        padding: 10px
-        }
-
-.parte3 {
-    text-align: center;
-    font-family: var(--brand-font);
-}
-.titulo3 {
-    color: #099d8d;
-}
-.conte{
-    background-color: #b8b8b9;
-    padding: 15px;
-}
 
 @media all and (min-width: 768px) {
     .equipo {
-        padding-left: 45px;
-        padding-right: 45px;
-        padding-bottom: 30px;
-        padding-top: 45px;
-    }
-    .textequipo {
-        font-size: 16px;
-    }
-    .tituloequipo {
-        font-size: 24px;
+        
     }
 }
-
 
 @media all and (min-width: 1200px) {
 
 }
-
-
-    
-=======
-@import "layout/header.scss";
-@import "layout/banner.scss";
-@import "layout/equipo.scss";
-@import "layout/fortdeb.scss";
-@import "layout/quienessomos";
-@import "layout/footer.scss";
-
->>>>>>> main
