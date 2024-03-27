@@ -3,14 +3,11 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-
-  
   }
-  img{
+  .photobanner{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-
   }
 
   .imgbanner{
@@ -42,11 +39,9 @@
 
     .imgbanner{
         display:flex;
-        align-items: center;
-      
-     
+        align-items: center; 
     }
-    img{
+    .photobanner{
       display: flex;
       width: 100vw;
     }
@@ -60,9 +55,7 @@
       align-items: center;
       padding:50px;
       transform: translate(3%,-100%);
-      
       }
-    
     }
     
   
@@ -76,7 +69,7 @@
         width: 100vw;
 
     }
-    img{
+    .photobanner{
       display: flex;
       width: 100vw;
     }
@@ -111,7 +104,7 @@
   
 
   }
-  img{  
+  .photobanner{  
      display: flex;
       width: 100vw;
   }
