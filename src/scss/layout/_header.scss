@@ -1,8 +1,9 @@
 .header {
     font-family: var(--brand-font);
     color: white;
-    position: sticky;
+    position: fixed;
     width: 100%;
+    z-index: 10;
     top: 0;
     opacity: 0.85;
 }
