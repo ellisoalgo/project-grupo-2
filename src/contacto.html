@@ -20,7 +20,49 @@
 <body>
     <load src="./partials/header.html"/>
     
-    <h1>CONTACTO</h1>
+    <img src="/images/original.webp" class="photobanner"></img>
+
+    <section class="contacto">
+      <h2>CONTACTO</h2>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ex ipsum maxime deserunt. Atque sint esse provident debitis dolores tempora similique, earum molestias numquam enim, asperiores quaerat, modi illum consequatur?</p>
+
+     <p>Todos los campos marcados con * son obligatorios</p>
+  
+    <form action="https://dev.adalab.es/api/form">
+      
+      <label for="name">Nombre completo <span class="asterisco">*</span></label>
+      <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Nombre..."
+              required 
+              />
+      <label for="email">Email <span class="asterisco">*</span></label>
+      <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="nombre.apellidos@mail.com"
+              required 
+              />
+      <label for="phone">Teléfono</label>
+      <input
+              type="text"
+              id="phone"
+              name="phone"
+              placeholder="Ej: 123456789"
+              />
+      <label for="message">Mensaje<span class="asterisco">*</span></label>
+      <textarea name="message" id="messaje" class="textarea"></textarea>
+
+      <input type="submit" value="Enviar" class="boton" />
+
+    </form>
+    
+  </section>
+
 
     <load src="./partials/footer.html"/>
   </body>
