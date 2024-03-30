@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Spice Girls</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <!-- <link
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
@@ -17,53 +17,69 @@
     <link rel="icon" href="./images/favicon.png" />
   </head>
 
-<body>
+  <body>
     <load src="./partials/header.html"/>
-    
     <img src="/images/original.webp" class="photobanner"></img>
 
     <section class="contacto">
       <h2 class="h2">CONTACTO</h2>
+      <p class="h2__p1">¿Tienes un proyecto que quieras desarrollar con nosotras? ¿Quieres ofrecernos el trabajo de nuestros sueños? ¿Te apetece simplemente saludarnos? No dudes en contactarnos llenando el formulario a continuación:</p>
 
-      <p class="h2__p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ex ipsum maxime deserunt. Atque sint esse provident debitis dolores tempora similique, earum molestias numquam enim, asperiores quaerat, modi illum consequatur?</p>
-
-     <p class="h2__p1-p2">Todos los campos marcados con * son obligatorios</p>
+      <p class="h2__p1-p2">Todos los campos marcados con <span class="asterisk">*</span> son obligatorios</p>
   
-    <form action="https://dev.adalab.es/api/form">
+      <form action="https://dev.adalab.es/api/form">
       
-      <label for="name">Nombre completo <span class="asterisco">*</span></label>
-      <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Nombre..."
-              required 
-              />
-      <label for="email">Email <span class="asterisco">*</span></label>
-      <input
-              type="text"
-              id="email"
-              name="email"
-              placeholder="nombre.apellidos@mail.com"
-              required 
-              />
-      <label for="phone">Teléfono</label>
-      <input
-              type="text"
-              id="phone"
-              name="phone"
-              placeholder="Ej: 123456789"
-              />
-      <label for="message">Mensaje<span class="asterisco">*</span></label>
-      <textarea name="message" id="messaje" class="textarea"></textarea>
+        <div class="box">
+          <label for="name">Nombre completo <span class="asterisk">*</span></label>
+          <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nombre..."
+                  required
+                  class="box_field"
+                  />
+        </div>
 
-      <input type="submit" value="Enviar" class="boton" />
+        <div class="box">
+          <label for="email">Email <span class="asterisk">*</span></label>
+          <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="nombre.apellidos@mail.com"
+                  required
+                  class="box_field"
+                  />
+        </div>
 
-    </form>
+        <div class="box">
+          <label for="phone">Teléfono</label>
+          <input
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  placeholder="Ej: 123456789"
+                  class="box_field"
+                  />
+        </div>
+
+        <div class="box">
+          <label for="message">Mensaje<span class="asterisk">*</span>
+          </label>
+          <textarea 
+            name="message" 
+            id="messaje" 
+            class="box_field" 
+            
+            placeholder="¿Qué necesitas?"></textarea>
+        </div>
+
+        <input type="submit" hover value="ENVIAR" class="boton" />
+      </form>
     
-  </section>
-
+    </section>
 
     <load src="./partials/footer.html"/>
   </body>
-  </html>
+</html>
