@@ -25,11 +25,11 @@ body {
     padding: 15px;
     display: block;
 
-    @media all and (minwidth: 768px) {
+    @media screen and (width> 780px) {
         padding: 163px;
     }
 
-    @media screen and (minwidth: 1200px) {
+    @media screen and (width> 1200px) {
         padding-left: 299px;
         padding-right: 299px;
         
