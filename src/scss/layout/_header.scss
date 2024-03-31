@@ -1,6 +1,11 @@
-header {
+.header {
     font-family: var(--brand-font);
     color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    opacity: 0.85;
 }
 h1 {
     background-color: var(--verdeoscuro);
