@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spice Girls</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    /> -->
+    <script src="https://kit.fontawesome.com/f67677b7d2.js" crossorigin="anonymous"></script>
+    
+
+    <link rel="icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./assets/contacto-a8065b3b.css">
+  </head>
+
+  <body>
+    
+<header class="header">
+  <h1 class="teamname">SPICE GIRLS</h1>
+  <nav class="navheader">
+      <ul class="menu">
+          <li><a href="/index.html#equipo" class="link1">EQUIPO</a></li>
+          <li><a href="/index.html#quienessomos" class="link1">QUIÉNES SOMOS</a></li>
+          <li><a href="/contacto.html" class="link1">CONTACTO</a></li>
+      </ul>
+  </nav>
+</header>
+    <img src="./images/original.webp" class="photobanner"></img>
+
+    <section class="contacto">
+      <h2 class="h2">CONTACTO</h2>
+      <p class="h2__p1">¿Tienes un proyecto que quieras desarrollar con nosotras? ¿Quieres ofrecernos el trabajo de nuestros sueños? ¿Te apetece simplemente saludarnos? No dudes en contactarnos llenando el formulario a continuación:</p>
+
+      <p class="h2__p1-p2">Todos los campos marcados con <span class="asterisk">*</span> son obligatorios</p>
+  
+      <form action="https://dev.adalab.es/api/form">
+      
+        <div class="box">
+          <label for="name">Nombre completo <span class="asterisk">*</span></label>
+          <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nombre..."
+                  required
+                  class="box_field"
+                  />
+        </div>
+
+        <div class="emailPhone">
+          <div class="box email">
+            <label for="email">Email <span class="asterisk">*</span></label>
+            <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="nombre.apellidos@mail.com"
+                    required
+                    class="box_field"
+                    />
+          </div>
+
+          <div class="box phone">
+            <label for="phone">Teléfono</label>
+            <input
+                    type="text"
+                    id="phone"
+                    name="phone"
+                    placeholder="Ej: 123456789"
+                    class="box_field"
+                    />
+          </div>
+        </div>
+
+        <div class="box">
+          <label for="message">Mensaje<span class="asterisk">*</span>
+          </label>
+          <textarea 
+            name="message" 
+            id="messaje" 
+            class="box_field"
+            rows="5"
+            cols="50"
+        
+            placeholder="¿Qué necesitas?"></textarea>
+        </div>
+
+        <input type="submit" hover value="ENVIAR" class="boton" />
+      </form>
+    
+    </section>
+
+    <footer>
+    <h6 class="license">Spice Girls © 2024</h6>
+    <nav class="navfooter">
+        <ul class="menufooter">
+            <li><a href="#equipo" class="link2">EQUIPO</a></li>
+            <li><a href="#quienessomos" class="link2">QUIÉNES SOMOS</a></li>
+            <li><a href="/contacto.html" class="link2">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <div class="logo">
+        <img class="logo-adalab" src="./images/logo-adalab.png" alt="logo-adalab"/>
+    </div>
+</footer>
+  </body>
+</html>
