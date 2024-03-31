@@ -99,6 +99,26 @@ form {
     }
 }
 
+.emailPhone {
+    @media screen and (width> 1200px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.email {
+    @media screen and (width> 1200px) {
+        width: 65%;
+    }
+}
+
+.phone {
+    @media screen and (width> 1200px) {
+        width: 30%;
+    }
+}
+
 .boton {
     text-align: center;
     background-color: var(--verdeoscuro);
