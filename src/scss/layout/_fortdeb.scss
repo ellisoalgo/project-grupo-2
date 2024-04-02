@@ -2,6 +2,7 @@
     display: flex;
     align-items:center;
     flex-direction: column;
+    background-color: #f1f1f1;
 }
 .bordesDiagonales {
     display: flex;
@@ -44,12 +45,29 @@
 @media all and (min-width: 768px) {
   
     .fortdeb {
-        flex-direction: row;
+        flex-direction: row;   
+        align-items: flex-start;   
+        padding-left: 45px;
+        padding-right: 45px;  
+        padding-top: 45px;
+        padding-bottom: 84px;   
+    }
+    .parte3{
+        width: 50vw;
+
     }
    
 }
 @media all and (min-width: 1200px) {
     .fortdeb {
         flex-direction: row;
+        padding-left: 139px;
+        padding-right: 139px; 
+        padding-bottom: 60px;
+        padding-top: 45px;
+    }
+
+    .parte3{
+        width: 50vw;
     }
 }
